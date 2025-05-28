@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla de Usuarios</title>
+  <style>
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #ddd; }
+    tr:nth-child(even) { background-color: #f9f9f9; }
+    a { color: blue; text-decoration: underline; cursor: pointer; }
+    .section-title {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    .account-table {
+      margin-top: 10px;
+      width: 50%;
+      border-collapse: collapse;
+    }
+    .account-table th, .account-table td {
+      border: 1px solid #ccc;
+      padding: 6px 8px;
+    }
+    .account-table th {
+      background-color: #eee;
+      text-align: left;
+    }
+  </style>
+  <script>
+    function copiarYRedirigir(username) {
+      navigator.clipboard.writeText(username).finally(() => {
+        window.open("https://provider.apihotels.com/ACESSUPPLIER/faces/login.xhtml", "_blank");
+      });
+    }
+
+    function copiarTexto(texto) {
+      navigator.clipboard.writeText(texto);
+    }
+  </script>
+</head>
+<body>
+  <h2>Tabla de Ciudades API</h2>
+  <table>
+    <tr>
+      <th>City</th>
+      <th>User Name</th>
+      <th>Password</th>
+    </tr>
+    <tr><td><a onclick="copiarYRedirigir('Aeldaye19')">Boston</a></td><td>Aeldaye19</td><td><a onclick="copiarTexto('Dc112345!!')">Dc112345!!</a></td></tr>
+    <tr><td><a onclick="copiarYRedirigir('dendesertcoach')">Denver</a></td><td>dendesertcoach</td><td><a onclick="copiarTexto('Dc112345!!')">Dc112345!!</a></td></tr>
+    <tr><td><a onclick="copiarYRedirigir('Seadc')">Seattle</a></td><td>Seadc</td><td><a onclick="copiarTexto('Dc112345y!!')">Dc112345y!!</a></td></tr>
+    <tr><td><a onclick="copiarYRedirigir('Desertcoach12345')">Seattle UPS</a></td><td>Desertcoach12345</td><td><a onclick="copiarTexto('Desertcoach1!!!')">Desertcoach1!!!</a></td></tr>
+    <tr><td><a onclick="copiarYRedirigir('slcdc')">Salt Lake City Alaska</a></td><td>slcdc</td><td><a onclick="copiarTexto('Dc112345y!!')">Dc112345y!!</a></td></tr>
+    <tr><td><a onclick="copiarYRedirigir('Nacs85295')">Phoenix</a></td><td>Nacs85295</td><td><a onclick="copiarTexto('Dc1123456y!!')">Dc1123456y!!</a></td></tr>
+    <tr><td><a onclick="copiarYRedirigir('nacsvc123')">New York</a></td><td>nacsvc123</td><td><a onclick="copiarTexto('Desertcoach12345Y!!')">Desertcoach12345Y!!</a></td></tr>
+    <tr><td><a onclick="copiarYRedirigir('Desertcoach1234')">CMH ups</a></td><td>Desertcoach1234</td><td><a onclick="copiarTexto('Desertcoach1!')">Desertcoach1!</a></td></tr>
+    <tr><td><a onclick="copiarYRedirigir('DesertCoachASA')">Fort Lauderdale</a></td><td>DesertCoachASA</td><td><a onclick="copiarTexto('Desertcoach12345Y!')">Desertcoach12345Y!</a></td></tr>
+    <tr><td><a onclick="copiarYRedirigir('johnb')">Jacksonville</a></td><td>johnb</td><td><a onclick="copiarTexto('Desertcoach11!')">Desertcoach11!</a></td></tr>
+  </table>
+
+  <h2>CONTRASEÑAS</h2>
+
+  <div class="section-title">SD USER</div>
+  <table class="account-table">
+    <tr><th>Usuario</th><th>Contraseña</th></tr>
+    <tr><td>johan_barajas</td><td>ABCDE</td></tr>
+  </table>
+
+  <div class="section-title">CORREO</div>
+  <table class="account-table">
+    <tr><th>Correo</th><th>Contraseña</th></tr>
+    <tr><td>
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" onclick="copiarTexto('faxes@desertcoach.com')">faxes@desertcoach.com</a>
+      </td>
+      <td>
+        <a onclick="copiarTexto('DesertCoach1!')" style="cursor:pointer; color:blue; text-decoration:underline;">DesertCoach1!</a>
+      </td>
+    </tr>
+    <td>
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" onclick="copiarTexto('changeorders@desertcoach.com')">changeorders@desertcoach.com</a>
+      </td>
+      <td>
+        <a onclick="copiarTexto('Desertcoach1!')" style="cursor:pointer; color:blue; text-decoration:underline;">Desertcoach1!</a>
+      </td>
+
+  </table>
+
+  <div class="section-title">CAMARAS</div>
+  <table class="account-table">
+    <tr><th>Correo</th><th>Contraseña</th></tr>
+    <tr>
+        <td>
+          <a href="https://login.lytx.com/" target="_blank" onclick="copiarTexto('andrew@desertcoach.com')">andrew@desertcoach.com</a>
+        </td>
+        <td>
+          <a onclick="copiarTexto('De614630!')" style="cursor:pointer; color:blue; text-decoration:underline;">De614630!</a>
+        </td>
+      </tr>
+      
+  </table>
+  
+
+  <div class="section-title">TA CONECTION</div>
+  <table class="account-table">
+    <tr><th>Usuario</th><th>Contraseña</th></tr>
+    <tr>
+        <td>
+          <a href="https://aapartnerconnex.tvlinc.com/Account/Login?ReturnUrl=%2fTrips" target="_blank" onclick="copiarTexto('Aeldaye')">Aeldaye</a>
+        </td>
+        <td>
+          <a onclick="copiarTexto('Desertcoach1!')" style="cursor:pointer; color:blue; text-decoration:underline;">Desertcoach1!</a>
+        </td>
+      </tr> 
+  </table>
+
+  <div class="section-title">PayCheck</div>
+  <table class="account-table">
+    <tr><th>Client ID</th><th>Login ID</th><th>Password</th></tr>
+    <tr>
+        <td>
+          <a href="https://paychex.centralservers.com/Login.aspx" target="_blank" onclick="copiarTexto('20021216')">20021216</a>
+        </td>
+        <td>
+          <a onclick="copiarTexto('DFlorida')" style="cursor:pointer; color:blue; text-decoration:underline;">DFlorida</a>
+          <td>
+            <a onclick="copiarTexto('DesertCoach!')" style="cursor:pointer; color:blue; text-decoration:underline;">DesertCoach!</a>
+          </td>
+        </td>
+      </tr> 
+  </table>
+  <p>Primer párrafo.</p>
+  <p>Segundo párrafo.</p>
+
+  <footer style="
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #555;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+">
+  <p>By Johan Barajas    | <a href="mailto:johannbarajas@gmail.com" style="color: #555; text-decoration: underline;">johannbarajas@gmail.com</a></p>
+</footer>
+
+  
+  
+</body>
+</html>
